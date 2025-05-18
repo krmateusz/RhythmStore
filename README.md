@@ -19,6 +19,18 @@ RhythmStore jest aplikacją sklepu muzycznego, w której użytkownik ma możliwo
 ✅ Możliwość zmiany nazwy studia i nadawaniu przywilejów administratora dla określonych użytkowników <br>
 
 ## 📷 Screenshoty działania aplikacji
-
+![Image Alt](https://github.com/krmateusz/RhythmStore/blob/5bd5bdf06029f1d81defdfe0c142c3857cefb1a4/RhythmStore/Screenshots/1.PNG)
+![Image Alt](https://github.com/krmateusz/RhythmStore/blob/5bd5bdf06029f1d81defdfe0c142c3857cefb1a4/RhythmStore/Screenshots/13.PNG)
+![Image Alt](https://github.com/krmateusz/RhythmStore/blob/5bd5bdf06029f1d81defdfe0c142c3857cefb1a4/RhythmStore/Screenshots/2.PNG)
+![Image Alt](https://github.com/krmateusz/RhythmStore/blob/5bd5bdf06029f1d81defdfe0c142c3857cefb1a4/RhythmStore/Screenshots/3.PNG)
+![Image Alt](https://github.com/krmateusz/RhythmStore/blob/5bd5bdf06029f1d81defdfe0c142c3857cefb1a4/RhythmStore/Screenshots/4.PNG)
+![Image Alt](https://github.com/krmateusz/RhythmStore/blob/5bd5bdf06029f1d81defdfe0c142c3857cefb1a4/RhythmStore/Screenshots/5.PNG)
+![Image Alt](https://github.com/krmateusz/RhythmStore/blob/5bd5bdf06029f1d81defdfe0c142c3857cefb1a4/RhythmStore/Screenshots/6.png)
+![Image Alt](https://github.com/krmateusz/RhythmStore/blob/5bd5bdf06029f1d81defdfe0c142c3857cefb1a4/RhythmStore/Screenshots/7.png)
+![Image Alt](https://github.com/krmateusz/RhythmStore/blob/5bd5bdf06029f1d81defdfe0c142c3857cefb1a4/RhythmStore/Screenshots/8.PNG)
+![Image Alt](https://github.com/krmateusz/RhythmStore/blob/5bd5bdf06029f1d81defdfe0c142c3857cefb1a4/RhythmStore/Screenshots/9.PNG)
+![Image Alt](https://github.com/krmateusz/RhythmStore/blob/5bd5bdf06029f1d81defdfe0c142c3857cefb1a4/RhythmStore/Screenshots/10.PNG)
+![Image Alt](https://github.com/krmateusz/RhythmStore/blob/5bd5bdf06029f1d81defdfe0c142c3857cefb1a4/RhythmStore/Screenshots/11.PNG)
+![Image Alt](https://github.com/krmateusz/RhythmStore/blob/5bd5bdf06029f1d81defdfe0c142c3857cefb1a4/RhythmStore/Screenshots/12.PNG)
 
 
