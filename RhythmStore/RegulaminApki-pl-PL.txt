@@ -1,0 +1,30 @@
+
+REGULAMIN APLIKACJI
+
+1. POSTANOWIENIA OGOLNE
+
+1.1 Niniejszy regulamin okresla zasady korzystania z aplikacji.
+
+1.2 Korzystanie z aplikacji oznacza akceptacje niniejszego regulaminu.
+
+2. WARUNKI KORZYSTANIA
+
+2.1 Uzytkownik zobowiazuje sie do korzystania z aplikacji zgodnie z obowiazujacymi przepisami prawa oraz postanowieniami niniejszego regulaminu.
+
+3. PRZETWARZANIE DANYCH OSOBOWYCH
+
+3.1 Administratorem danych osobowych zbieranych za posrednictwem aplikacji jest deweloper.
+
+3.2 Dane osobowe przetwarzane sa zgodnie z polityka prywatnosci dostepna w aplikacji.
+
+4. ODPOWIEDZIALNOSC
+
+4.1 Deweloper nie ponosi odpowiedzialnosci za szkody wynikle z korzystania z aplikacji, chyba ze wynikaja one bezposrednio z dzialania niezgodnego z obowiazujacym prawem.
+
+5. POSTANOWIENIA KONCOWE
+
+5.1 Niniejszy regulamin wchodzi w zycie z chwila rozpoczecia korzystania z aplikacji.
+
+5.2 Deweloper zastrzega sobie prawo do zmiany niniejszego regulaminu w dowolnym czasie.
+
+5.3 W sprawach nieuregulowanych niniejszym regulaminem maja zastosowanie przepisy prawa polskiego.

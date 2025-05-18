@@ -1,0 +1,77 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:System="clr-namespace:System;assembly=System.Runtime">
+    
+    <System:String x:Key="TextBlockText1">Zaloguj się do RhythmStore</System:String>
+    <System:String x:Key="TextBlockText2" xml:space="preserve"> Haslo</System:String>
+    <System:String x:Key="ButtonContent1">Zaloguj</System:String>
+    <System:String x:Key="ButtonContent2">Nie masz konta? Zarejestruj się</System:String>
+    <System:String x:Key="TextBlockText3">Zarejestruj się do RhythmStore</System:String>
+    <System:String x:Key="TextBoxText1">Imię</System:String>
+    <System:String x:Key="TextBoxText2">Nazwisko</System:String>
+    <System:String x:Key="TextBoxText3">Powtórz E-mail</System:String>
+    <System:String x:Key="TextBlockText4" xml:space="preserve"> Haslo</System:String>
+    <System:String x:Key="ButtonContent5">Sklep</System:String>
+    <System:String x:Key="CheckBoxContent1">Zapoznałem/(am) się z regulaminem serwisu (wymagane)</System:String>
+    <System:String x:Key="TextBlockText5">Powtorz haslo</System:String>
+    <System:String x:Key="LabelContent1">Przeczytaj regulamin</System:String>
+    <System:String x:Key="ButtonContent3">Zarejestruj konto</System:String>
+    <System:String x:Key="ButtonContent6">Moje zakupy</System:String>
+    <System:String x:Key="ButtonContent4">Powrót</System:String>
+    <System:String x:Key="ButtonContent7">Konto</System:String>
+    <System:String x:Key="ButtonContent8">Ustawienia</System:String>
+    <System:String x:Key="ButtonContent9">Wyloguj</System:String>
+    <System:String x:Key="TextBlockText6">Dane adresowe</System:String>
+    <System:String x:Key="TextBlockText7">Dane osobowe</System:String>
+    <System:String x:Key="TextBlockText8">Imię</System:String>
+    <System:String x:Key="TextBlockText40">Zarejestruj się</System:String>
+    <System:String x:Key="TextBlockText9">Nazwisko</System:String>
+    <System:String x:Key="TextBlockText10">E-mail</System:String>
+    <System:String x:Key="TextBlockText11">Miejscowość</System:String>
+    <System:String x:Key="TextBlockText12">Ulica</System:String>
+    <System:String x:Key="TextBlockText13">Numer domu</System:String>
+    <System:String x:Key="TextBlockText14">Numer lokalu</System:String>
+    <System:String x:Key="ButtonContent10">Zatwierdź</System:String>
+    <System:String x:Key="ButtonContent11">Powrót</System:String>
+    <System:String x:Key="TextBlockText15">Adresy e-mail nie są identyczne</System:String>
+    <System:String x:Key="TextBlockText16">Wymagane zaakceptowanie regulaminu</System:String>
+    <System:String x:Key="TextBlockText17">Hasła nie są identyczne</System:String>
+    <System:String x:Key="TextBlockText18">Motyw</System:String>
+    <System:String x:Key="ButtonContent12">Jasny</System:String>
+    <System:String x:Key="ButtonContent13">Ciemny</System:String>
+    <System:String x:Key="TextBlockText19">Tytuł</System:String>
+    <System:String x:Key="TextBlockText20">Wykonawca</System:String>
+    <System:String x:Key="TextBlockText21">Gatunek</System:String>
+    <System:String x:Key="TextBlockText22">Utwory</System:String>
+    <System:String x:Key="TextBlockText23">Długość</System:String>
+    <System:String x:Key="TextBlockText24">Cena</System:String>
+    <System:String x:Key="TextBlockText25">Data zakupu</System:String>
+    <System:String x:Key="TextBlockText26">Wybierz płytę:</System:String>
+    <System:String x:Key="ButtonContent14">Kup</System:String>
+    <System:String x:Key="ButtonContent15">Dodaj</System:String>
+    <System:String x:Key="ButtonContent16">Odśwież</System:String>
+    <System:String x:Key="TextBlockText27">Dodaj gatunek</System:String>
+    <System:String x:Key="TextBlockText28">Dodaj wykonawcę</System:String>
+    <System:String x:Key="TextBlockText29">Gatunek</System:String>
+    <System:String x:Key="TextBlockText30">Wykonawca</System:String>
+    <System:String x:Key="TextBlockText31">Tytuł</System:String>
+    <System:String x:Key="TextBlockText32">Utwory</System:String>
+    <System:String x:Key="TextBlockText33">Długość</System:String>
+    <System:String x:Key="TextBlockText34">Cena</System:String>
+    <System:String x:Key="ButtonContent17">Zarządzaj</System:String>
+    <System:String x:Key="ButtonContent18">Dodaj</System:String>
+    <System:String x:Key="ButtonContent19">Usuń</System:String>
+    <System:String x:Key="TextBlockText35">ID płyty, którą chcesz usunąć</System:String>
+    <System:String x:Key="ButtonContent20">Usuń</System:String>
+    <System:String x:Key="ButtonContent21">Odśwież</System:String>
+    <System:String x:Key="TextBlockText36">Dodaj płytę</System:String>
+    <System:String x:Key="ButtonContent22">Dodaj</System:String>
+    <System:String x:Key="ButtonContent23">Dodaj</System:String>
+    <System:String x:Key="TextBlockText37">Podaj nową nazwę studia:</System:String>
+    <System:String x:Key="TextBlockText38">Wprowadź ID użytkownika, którego chcesz awansować na administratora</System:String>
+    <System:String x:Key="ButtonContent24">Zmień</System:String>
+    <System:String x:Key="ButtonContent25">Zmień</System:String>
+    <System:String x:Key="TextBlockText39">Twój stan konta:</System:String>
+    <System:String x:Key="TextBlockText41">Zaloguj się</System:String>
+    
+</ResourceDictionary>

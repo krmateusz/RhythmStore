@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="126472.png" />
+    <None Remove="263142.png" />
+    <None Remove="402593.png" />
+    <None Remove="account.png" />
+    <None Remove="account_b.png" />
+    <None Remove="ENflag.png" />
+    <None Remove="ikonka_nutki1.png" />
+    <None Remove="moon.png" />
+    <None Remove="PLflag.png" />
+    <None Remove="sun.png" />
+    <None Remove="USflag.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="126472.png" />
+    <Resource Include="263142.png" />
+    <Resource Include="402593.png" />
+    <Resource Include="account.png" />
+    <Resource Include="account_b.png" />
+    <Resource Include="ENflag.png" />
+    <Resource Include="ikonka_nutki1.png" />
+    <Resource Include="moon.png" />
+    <Resource Include="PLflag.png" />
+    <Resource Include="sun.png" />
+    <Resource Include="USflag.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="RegulaminApki-en-US.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="RegulaminApki-pl-PL.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

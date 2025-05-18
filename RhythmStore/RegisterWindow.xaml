@@ -1,0 +1,70 @@
+﻿<Window x:Class="WpfApp3.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="Studio nagrań" Height="585" Width="1040" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}" x:Key="RoundButton">
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15" />
+                </Style>
+            </Style.Resources>
+        </Style>
+        <Style TargetType="{x:Type TextBox}" x:Key="RoundTextBox">
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="7" />
+                </Style>
+            </Style.Resources>
+        </Style>
+        <Style x:Key="RoundedPasswordBox" TargetType="{x:Type PasswordBox}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type PasswordBox}">
+                        <Border Background="{TemplateBinding Background}"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="7">
+
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid Background="{DynamicResource Background}">
+        <Grid x:Name="RegulaminRoot">
+            <TextBlock Foreground="{DynamicResource Text}" HorizontalAlignment="Center" Height="50" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Top" Width="463" FontFamily="Segoe UI Light" FontSize="36" Text="{DynamicResource TextBlockText40}"/>
+            <CheckBox x:Name="RegulaminCheckBox" Foreground="{DynamicResource Text}" Content="{DynamicResource CheckBoxContent1}" HorizontalAlignment="Center" Height="20" Margin="0,328,0,0" VerticalAlignment="Top" Width="383" FontSize="15" FontFamily="Segoe UI Light" Padding="5,-2,0,0" Checked="RegulaminCheckBox_Checked"/>
+            <Button x:Name="ButtonRejestracja" Style="{DynamicResource RoundButton}" Content="{DynamicResource ButtonContent3}" HorizontalAlignment="Center" Height="60" Margin="0,397,0,0" VerticalAlignment="Top" Width="300" BorderBrush="{x:Null}" Foreground="White" Background="#FF1F2B3F" FontFamily="Segoe UI Light" FontSize="24" Click="Button_Click_Zarejestruj" />
+            <Grid Height="235" Margin="135,88,135,0" VerticalAlignment="Top">
+                <TextBox x:Name="ImieTextBox" Background="{DynamicResource Card}" Foreground="{DynamicResource Text}" Style="{DynamicResource RoundTextBox}" HorizontalAlignment="Left" Height="35" Margin="50,10,0,0" TextWrapping="Wrap" Text="{DynamicResource TextBoxText1}" VerticalAlignment="Top" Width="300" Padding="0,8,0,0" GotFocus="TextBox_GotFocus_Imie" LostFocus="TextBox_LostFocus_Imie"/>
+                <TextBox x:Name="NazwiskoTextBox" Background="{DynamicResource Card}" Foreground="{DynamicResource Text}" Style="{DynamicResource RoundTextBox}" Height="35" Margin="0,10,50,0" TextWrapping="Wrap" Text="{DynamicResource TextBoxText2}" VerticalAlignment="Top" Padding="0,8,0,0" GotFocus="TextBox_GotFocus_Nazwisko" LostFocus="TextBox_LostFocus_Nazwisko" HorizontalAlignment="Right" Width="300"/>
+                <TextBox x:Name="EmailTextBox" Background="{DynamicResource Card}" Foreground="{DynamicResource Text}" Style="{DynamicResource RoundTextBox}" HorizontalAlignment="Left" Height="34" Margin="50,63,0,0" TextWrapping="Wrap" Text="E-mail" VerticalAlignment="Top" Width="300" Padding="0,8,0,0" GotFocus="TextBox_GotFocus_Email" LostFocus="TextBox_LostFocus_Email"/>
+                <TextBox x:Name="PowtorzEmailTextBox" Background="{DynamicResource Card}" Foreground="{DynamicResource Text}" Style="{DynamicResource RoundTextBox}" Height="34" Margin="0,63,50,0" TextWrapping="Wrap" Text="{DynamicResource TextBoxText3}" VerticalAlignment="Top" Padding="0,8,0,0" GotFocus="TextBox_GotFocus_PowtorzEmail" LostFocus="TextBox_LostFocus_PowtorzEmail" HorizontalAlignment="Right" Width="300"/>
+                <PasswordBox x:Name="HasloPasswordBox" Background="{DynamicResource Card}" Foreground="{DynamicResource Text}" Style="{DynamicResource RoundedPasswordBox}" HorizontalAlignment="Left" PasswordChanged="PasswordBox_PasswordChanged" Height="35" Margin="50,117,0,0" Password="" VerticalAlignment="Top" Width="300" Padding="0,8,0,0" GotFocus="PasswordBox_GotFocus_Haslo" LostFocus="PasswordBox_LostFocus_Haslo"/>
+                <PasswordBox x:Name="PowtorzHasloPasswordBox" Background="{DynamicResource Card}" Foreground="{DynamicResource Text}" Style="{DynamicResource RoundedPasswordBox}" PasswordChanged="PowtorzHasloPasswordBox_PasswordChanged" Height="35" Margin="0,117,50,0" Password="" VerticalAlignment="Top" Padding="0,8,0,0" GotFocus="PasswordBox_GotFocus_PowtorzHaslo" LostFocus="PasswordBox_LostFocus_PowtorzHaslo" HorizontalAlignment="Right" Width="300"/>
+
+                <TextBlock x:Name="textPassword" Foreground="{DynamicResource Text}" HorizontalAlignment="Left" Height="13" Margin="50,127,0,0" TextWrapping="Wrap" Text="{DynamicResource TextBlockText4}" VerticalAlignment="Top" Width="300" MouseDown="textPassword_MouseDown" MouseUp="textPassword_MouseUp" GotFocus="TextBlock_GotFocus_Haslo" LostFocus="TextBlock_LostFocus_Haslo"/>
+                <TextBlock x:Name="TextPasswordRepeat"  Foreground="{DynamicResource Text}" HorizontalAlignment="Left" Height="16" Margin="408,127,0,0" TextWrapping="Wrap" Text="{DynamicResource TextBlockText5}" VerticalAlignment="Top" Width="300" MouseDown="TextPasswordRepeat_MouseDown" MouseUp="TextPasswordRepeat_MouseUp" GotFocus="TextBlock_GotFocus_PowtorzHaslo" LostFocus="TextBlock_LostFocus_PowtorzHaslo"/>
+            </Grid>
+            <TextBlock x:Name="BladHasloTextBlox" HorizontalAlignment="Left" VerticalAlignment="Top" Text ="{DynamicResource TextBlockText17}" Visibility="Hidden" TextAlignment="Center" Foreground="Red" Width="300" Margin="540,187,0,0" TextWrapping="NoWrap" Height="16"/>
+            <TextBlock x:Name="BladEmailTextBox" HorizontalAlignment="Left"  TextWrapping="NoWrap" Text="{DynamicResource TextBlockText15}" VerticalAlignment="Top" Visibility="Hidden" TextAlignment="Center" Foreground="Red" Width="248" Margin="566,134,0,0"/>
+            <TextBlock x:Name="BladRegulaminTextBlock" HorizontalAlignment="Center" Margin="0,353,0,0" TextWrapping="NoWrap" Text="{DynamicResource TextBlockText16}" VerticalAlignment="Top" Visibility="Hidden" TextAlignment="Center" Foreground="Red"/>
+            <Button x:Name="ButtonPowrot" Content="{DynamicResource ButtonContent4}" Style="{DynamicResource RoundButton}" HorizontalAlignment="Center" Height="60" Margin="0,472,0,0" VerticalAlignment="Top" Width="300" BorderBrush="{x:Null}" Foreground="{DynamicResource ButtonText}" Background="{DynamicResource Button}" FontFamily="Segoe UI Light" FontSize="24" Click="ButtonPowrot_Click"/>
+            <Label x:Name="RegulaminLabel" Content="{DynamicResource LabelContent1}" Foreground="{DynamicResource Text}" HorizontalAlignment="Center" Margin="0,366,0,0" VerticalAlignment="Top" Height="26" MouseLeftButtonDown="RegulaminLabel_MouseLeftButtonDown" MouseEnter="RegulaminLabel_MouseEnter" MouseLeave="RegulaminLabel_MouseLeave"/>
+
+        </Grid>
+        <Grid x:Name="Regulamin" Visibility="Hidden">
+            <TextBlock x:Name="TekstRegulaminu" Foreground="{DynamicResource Text}" FontWeight="Bold" HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center" Height="549" Width="770" />
+            <Button x:Name="ButtonPowrotZRegulaminu" Content="{DynamicResource ButtonContent11}" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="29" Width="43" BorderBrush="{x:Null}" Foreground="{DynamicResource ButtonText}" Background="{DynamicResource Button}" FontFamily="Segoe UI Light" FontSize="10" Click="ButtonPowrotZRegulaminu_Click"/>
+        </Grid>
+
+
+    </Grid>
+</Window>
